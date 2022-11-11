@@ -14,9 +14,8 @@ img{
 }
 
 .main__bkg{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-
     padding-left: 100px;
     display: flex;
     align-items: flex-start;
@@ -26,12 +25,12 @@ img{
     background-image: url("../img/Element.png");
     background-size: 100%;
     font-family: Inter, sans-serif;
-    font-size: 32px;
+    font-size: 35%;
     color: white;
 
 }
 #txt__main{
-    font-size: 4rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -40,7 +39,8 @@ img{
     display: flex;
     flex-direction: row;
     font-family: Inter, sans-serif;
-    font-size: 5rem;
+    font-size: 1.2rem;
+
 }
 
 
@@ -48,7 +48,6 @@ img{
     font-size: 1rem;
 }
 #3{
-    display: flex;
     align-items: center;
 }
 #4{
@@ -59,15 +58,17 @@ img{
     font-family: Inter, sans-serif;
     display: flex;
     flex-direction: row;
-    width: 40rem;
-    height: 13rem;
+    height: 3rem;
     align-items: center;
+    max-height: 48px;
     justify-content: center;
     text-align: center;
+    width: 70%;
     background: #4F9CF9;
     border: 0;
-    border-radius: 20px;
-    font-size: 4rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    max-width: 200px;
     color: white;
 }
 #organize__group-1{
@@ -83,7 +84,7 @@ img{
 
 }
 #title__main{
-    font-size: 12rem;
+    font-size: 4rem;
     text-align: center;
 
 }
@@ -104,10 +105,13 @@ nav{
 
 #txt_tgt{
     font-family: Inter, sans-serif;
-    font-size: 12rem;
+    font-size: 4rem;
 }
 
-
+#txt_tgt{
+    font-size: 1rem;
+    text-align: justify;
+}
 
 #img__2{
     width:30%;
